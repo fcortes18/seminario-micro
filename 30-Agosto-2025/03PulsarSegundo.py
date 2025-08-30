@@ -21,3 +21,8 @@ while True:
         sleep(0.009)
         pinLed.value(0)
         sleep(0.001)
+    for i in range(0, 100):
+        pinLed.value(1)
+        sleep(0.005)
+        pinLed.value(0)
+        sleep(0.005)
