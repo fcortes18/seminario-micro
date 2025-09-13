@@ -24,14 +24,14 @@ _thread.start_new_thread(nucleo1, ())
 #Nucleo principal
 while True:
     global intTiempo
-    if pinSwMasFrec():
+    if pinSwMasFrec() and intTiempo > 20:
         utime.sleep_ms(20) #Tiempo de rebote
         intTiempo -= 20
         pinLed2.toggle()
         while pinSwMasFrec():
             pass
         
-    if pinSwMenFrec():
+    if pinSwMenFrec() and intTiempo < 500:
         utime.sleep_ms(20)
         intTiempo += 20
         pinLed2.toggle()
