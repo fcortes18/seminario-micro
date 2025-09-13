@@ -14,7 +14,7 @@ p_oled.rotate(1)
 p_oled.show()
 
 utime.sleep_ms(2)
-p_oled.text("Tiempo en ms = ", 0, 0)
+p_oled.text("Tiempo en s = ", 0, 0)
 p_oled.show()
 
 intStart = utime.ticks_ms()
