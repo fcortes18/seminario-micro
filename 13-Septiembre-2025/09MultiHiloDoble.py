@@ -28,11 +28,15 @@ while True:
         utime.sleep_ms(20) #Tiempo de rebote
         intTiempo -= 20
         pinLed2.toggle()
+        while pinSwMasFrec():
+            pass
         
     if pinSwMenFrec():
         utime.sleep_ms(20)
         intTiempo += 20
         pinLed2.toggle()
+        while pinSwMenFrec():
+            pass
     
     
     
