@@ -4,7 +4,7 @@ import utime
 intStart1 = 0
 intBase = 10
 intContador = 0
-intStart_ms = utime.ticks_ms()
+intStart1 = utime.ticks_ms()
 
 pinLed = Pin(4, Pin.OUT)
 objPuertoSerial0 = UART(0, baudrate = 9600, tx = Pin(0), rx = Pin(1))
