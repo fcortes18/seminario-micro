@@ -15,7 +15,7 @@ p2 = [0 1 0 1]; % Patron dos de entrada
 
 %y = [0 0 0 1]'; % Salidas deseadas % compuerta AND
 
-y = [0 -1 -1 -1]'; % Salidas deseadas % compuerta OR
+y = [-1 1 1 1]'; % Salidas deseadas % compuerta OR
 
 
 alfa = 0.1;
