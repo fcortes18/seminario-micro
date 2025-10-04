@@ -31,5 +31,12 @@ Ri = inv(R);
 x = (Ri*h);
 xm = (1/Q)*x;
 
+plot(p1(1),p2(1),'bo')
+grid on, hold on
+plot(p1(2),p2(2),'bo')
+plot(p1(3),p2(3),'bo')
+plot(p1(4),p2(4),'bo')
+axis([-0.5 1.5 -0.5 1.5])
+
 pr=-0.5:0.01:2;
 H=plot(pr, -xm(3)/xm(2)- xm(1)/xm(2)*pr);
