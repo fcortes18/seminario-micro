@@ -10,8 +10,8 @@ p2=[0 1 0 1];   % patron dos de entrada
 
 yd1 = [0 0 0 1]; % AND normal
 yd2 = [-1 -1 -1 1]; % AND modificada
-yd3 = [0 1 1 1];
-yd4 = [-1 1 1 1];
+yd3 = [0 1 1 1]; % OR normal
+yd4 = [-1 1 1 1]; % OR modificada (salen mejor las modificadas
 
 yd = yd2;
 
