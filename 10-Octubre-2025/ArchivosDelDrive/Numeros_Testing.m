@@ -27,3 +27,5 @@ net = W*P1 + b;
 net'
 
 NumeroReconocido = win - 1;
+
+NumeroReconocido
