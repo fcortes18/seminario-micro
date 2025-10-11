@@ -1,6 +1,6 @@
 clear all; close all; clc;
 
-load('xTrainImages.mat')
+load('xTrainImagRand.mat')
 num = 3000;
 
 imshow(xTrainImages{num}, 'InitialMagnification', 600);

@@ -2,7 +2,7 @@ clear all; close all; clc;
 
 load('Pesos_Neurona_Numeros.mat')
 
-img_ent = imread('tres.jpg');
+img_ent = imread('cinco.jpg');
 
 img_ent = im2double(img_ent);
 
