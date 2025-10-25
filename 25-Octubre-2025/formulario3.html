@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Formularios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post">
+            Escriba su clave de cliente
+            <input type ="password" name="Clave">
+            <br><br>
+            Deseo que me envien el catálogo
+            <input type="checkbox" name="Catalogo" value="Si" checked>
+            <br><br>
+            Forma de pago:
+            <br>
+            <input type="radio" name="Pago" value="Tarjeta"> Tarjeta
+            <br>
+            <input type="radio" name="Pago" value="Giro"> Giro
+            <br>
+            <input type="radio" name="Pago" value="Reeembolso"> Contra reembolso
+            <br><br>
+            Producto que desea comprar:
+            <select name="Producto">
+                <option value="Zapatillas">Zapatillas</option>
+                <option value="Botas">Botas</option>
+                <option value="Zapatos">Zapatos</option>
+                <option value="Sandalias">Sandalias</option>
+            </select>
+            <br><br>
+            <input type="Submit" value="Enviar">
+            <input type="Reset" value="Borrar">
+        </form>
+    </body>
+</html>
